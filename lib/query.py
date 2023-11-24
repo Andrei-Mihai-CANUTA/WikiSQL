@@ -1,4 +1,4 @@
-from lib.common import detokenize
+from third_party.wikisql.lib.common import detokenize
 from collections import defaultdict
 from copy import deepcopy
 import re

@@ -1,7 +1,7 @@
 import records
 import re
 from babel.numbers import parse_decimal, NumberFormatError
-from lib.query import Query
+from third_party.wikisql.lib.query import Query
 
 
 schema_re = re.compile(r'\((.+)\)')
